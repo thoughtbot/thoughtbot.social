@@ -94,7 +94,6 @@ export const SignInBanner: React.FC = () => {
           defaultMessage='Follow anyone across the fediverse and see it all in chronological order. No algorithms, ads, or clickbait in sight.'
         />
       </p>
-      {signupButton}
       <a href='/auth/sign_in' className='button button--block button-secondary'>
         <FormattedMessage id='sign_in_banner.sign_in' defaultMessage='Login' />
       </a>

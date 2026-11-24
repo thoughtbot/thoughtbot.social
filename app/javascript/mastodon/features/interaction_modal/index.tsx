@@ -497,14 +497,6 @@ const InteractionModal: React.FC<{
       </div>
 
       <LoginForm resourceUrl={url} intent={intent} />
-
-      <p>
-        <FormattedMessage
-          id='interaction_modal.no_account_yet'
-          defaultMessage="Don't have an account yet?"
-        />{' '}
-        {signupButton}
-      </p>
     </div>
   );
 };
