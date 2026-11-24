@@ -5,8 +5,8 @@ module Account::Header
 
   MAX_DESCRIPTION_LENGTH = 150
   HEADER_IMAGE_MIME_TYPES = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'].freeze
-  HEADER_LIMIT = 8.megabytes
-  HEADER_DIMENSIONS = [1500, 500].freeze
+  HEADER_LIMIT = 10.megabytes
+  HEADER_DIMENSIONS = [3000, 1500].freeze
   HEADER_MAX_PIXELS = HEADER_DIMENSIONS.first * HEADER_DIMENSIONS.last
 
   class_methods do
